@@ -14,10 +14,17 @@ A professional tool to keep your system active by moving the mouse with advanced
 - Settings persistence
 - Cross-platform support
 
-## Windows Users
+## Quick Start (Windows Users)
 
-### Option 1: Using the Executable (Recommended)
-1. Download the `Mouse Jiggler.exe` from the releases
+1. Go to the [releases](releases) directory
+2. Download `Mouse Jiggler.exe`
+3. Double-click to run
+4. No installation required
+
+## Installation Options
+
+### Option 1: Using the Executable (Recommended for Windows)
+1. Download the `Mouse Jiggler.exe` from the [releases](releases) directory
 2. Double-click to run
 3. No installation required
 
@@ -72,6 +79,19 @@ If you encounter any issues:
 2. Check if you have the required permissions
 3. Try running as administrator (Windows)
 4. Check the activity log for error messages
+
+## Building from Source
+
+To build the executable yourself:
+1. Install PyInstaller:
+   ```
+   pip install pyinstaller
+   ```
+2. Run the build command:
+   ```
+   pyinstaller mouse_jiggler.spec
+   ```
+3. The executable will be created in the `dist` directory
 
 ## License
 

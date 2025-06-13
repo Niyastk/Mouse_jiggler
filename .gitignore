@@ -39,4 +39,8 @@ ENV/
 
 # Project specific
 settings.json
-*.log 
+*.log
+
+# Allow executables in releases directory
+!releases/
+!releases/*.exe 
